@@ -1,0 +1,13 @@
+{
+  // This must match your Worker name in Cloudflare (hpcweb7).
+  "name": "hpcweb7",
+  "main": "worker.js",
+  "compatibility_date": "2025-09-01",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "thp-church",
+      "database_id": "a4030f3d-61bb-4c35-a300-dd40bec40c34"
+    }
+  ]
+}
